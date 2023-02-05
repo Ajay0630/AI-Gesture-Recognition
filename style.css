@@ -1,0 +1,28 @@
+.note{
+    font-size: 18px;
+    color: black;
+}
+.btn{
+    color: white;
+}
+.The-one-and-only-copyright-footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color:gray;
+    color: whitesmoke;
+    width: 100%;
+    height: 3%;
+}
+canvas{
+    border-radius: 5px;
+    border: double;
+    animation-name: animatio;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animatio{
+    from {box-shadow: 5px 5px 5px red;}
+    to {box-shadow: 5px 5px 5px yellow;}
+}
